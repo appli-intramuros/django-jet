@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.10
+-----
+* Remove gif ping (certificate invalide)
+
 1.0.9
 -----
 * Add French locale missing mo file
