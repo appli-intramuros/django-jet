@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.11
+-----
+* Add chevron picto on multi selectors
+
 1.0.10
 -----
 * Remove gif ping (certificate invalide)
