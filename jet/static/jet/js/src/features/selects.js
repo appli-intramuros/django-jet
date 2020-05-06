@@ -95,6 +95,10 @@ Select2.prototype = {
                 this.$dropdown.removeClass('select2-multiple-dropdown');
             }
 
+            // IntraMuros add arrow picto
+            $('.select2-selection--multiple').prepend('<span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>');
+
+
             return $container;
         };
     },

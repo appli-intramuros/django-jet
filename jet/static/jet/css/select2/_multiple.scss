@@ -12,6 +12,7 @@
     list-style: none;
     margin: 0;
     padding: 0 5px;
+    padding-right: 22px;
     width: 100%;
 
     li {
@@ -25,6 +26,23 @@
     font-weight: bold;
     margin-top: 5px;
     margin-right: 10px;
+  }
+
+  .select2-selection__arrow {
+    cursor: pointer;
+    height: 26px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 20px;
+
+    b:before {
+      @include font-icon;
+      color: $input-icon-color;
+      font-size: 20px;
+      content: $icon-arrow-down;
+      line-height: 32px;
+    }
   }
 
   .select2-selection__choice {
@@ -68,6 +86,11 @@
     .select2-selection__choice__remove {
       margin-left: 2px;
       margin-right: auto;
+    }
+
+    .select2-selection__arrow {
+      left: 1px;
+      right: auto;
     }
   }
 }
