@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.12
+1.0.13
 -----
 * Buf fix jquery error with django import-export  => https://github.com/django-import-export/django-import-export/issues/618#issuecomment-566158516
 * https://github.com/geex-arts/django-jet/pull/285
