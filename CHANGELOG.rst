@@ -1,5 +1,8 @@
 Changelog
 =========
+1.0.14
+-----
+* Table header: wrap labels + remove uppercase transform + increase font size
 
 1.0.13
 -----

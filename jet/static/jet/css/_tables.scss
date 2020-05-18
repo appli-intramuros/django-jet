@@ -44,7 +44,7 @@ table {
   thead th {
     background: $content-contrast2-background-color;
     color: $content-contrast2-text-color;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     transition: background-color $fast-transitions-duration;
 
     a:link, a:visited {
@@ -73,9 +73,9 @@ thead th,
 tfoot td {
   font-weight: normal;
   text-align: left;
-  white-space: nowrap;
+  // white-space: nowrap;
   vertical-align: middle;
-  font-size: 12px;
+  font-size: 14px;
 
   &:first-child {
     border-radius: 4px 0 0 0;
