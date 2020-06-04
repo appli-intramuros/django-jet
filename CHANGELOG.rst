@@ -1,5 +1,9 @@
 Changelog
 =========
+1.0.15
+-----
+* Table: remove table box-shadow, incompatible with CKEditor
+
 1.0.14
 -----
 * Table header: wrap labels + remove uppercase transform + increase font size

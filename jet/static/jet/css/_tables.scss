@@ -8,7 +8,7 @@ table {
   background: $content-background-color;
   border-radius: 4px;
   overflow-x: auto;
-  box-shadow: 0 2px 0 0 $content-border2-color;
+  // box-shadow: 0 2px 0 0 $content-border2-color; Pas compatible avec CKEditor (affiche une ombre bleue pas jolie)
   margin-bottom: 2px;
 
   &.helper {
