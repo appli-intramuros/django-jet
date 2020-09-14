@@ -1,5 +1,9 @@
 Changelog
 =========
+1.1.1
+-----
+* FIX: django.gettext is not a function
+
 1.1.0
 -----
 * Django 3 compatible
