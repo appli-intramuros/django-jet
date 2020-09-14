@@ -1,5 +1,9 @@
 Changelog
 =========
+1.1.0
+-----
+* Django 3 compatible
+
 1.0.15
 -----
 * Table: remove table box-shadow, incompatible with CKEditor
