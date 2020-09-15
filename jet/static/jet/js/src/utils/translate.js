@@ -1,10 +1,10 @@
 module.exports = function (str) {
-  if (window.django == undefined) {
-    return str;
-  }
   // bug fix with django 3 and django-import-export lib ?! django.gettext is not a function
-  if (django.gettext) {
+  if (typeof gettext === "function") {
+    return gettext(str);
+  }
+  if (django && typeof django.gettext === "function") {
     return django.gettext(str);
   }
-  return gettext(str);
+  return str;
 };
