@@ -1,5 +1,9 @@
 Changelog
 =========
+1.1.3
+-----
+* Update jQuery version to 3.5.1
+
 1.1.2
 -----
 * FIX: bug fix: django.gettext is not a function
