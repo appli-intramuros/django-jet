@@ -4,7 +4,9 @@ jet = {
     jQuery: $
 };
 
-require('jquery-migrate');
+// Add jquery-migrate to help migrate to jquery 3
+require('./jquery-migrate/jquery-migrate-3.3.1.min');
+
 require('./layout-updaters/actions');
 require('./layout-updaters/breadcrumbs');
 require('./layout-updaters/paginator');

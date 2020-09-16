@@ -25,8 +25,5 @@
     "timepicker": "git://github.com/geex-arts/timepicker",
     "vinyl-buffer": "1.0.0",
     "vinyl-source-stream": "1.1.0"
-  },
-  "dependencies": {
-    "jquery-migrate": "^3.3.1"
   }
 }
