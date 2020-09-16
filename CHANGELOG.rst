@@ -1,5 +1,9 @@
 Changelog
 =========
+1.1.7
+-----
+* Add jquery-migrate manually (prod version)
+
 1.1.6
 -----
 * Downgrade jQuery-ui
