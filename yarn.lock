@@ -2077,9 +2077,9 @@ istextorbinary@1.0.2:
     binaryextensions "~1.0.0"
     textextensions "~1.0.0"
 
-"jquery-ui@git://github.com/jquery/jquery-ui#1.11.4":
-  version "1.11.4"
-  resolved "git://github.com/jquery/jquery-ui#d6713024e16de90ea71dc0544ba34e1df01b4d8a"
+"jquery-ui@git://github.com/jquery/jquery-ui#1.12.1":
+  version "1.12.1"
+  resolved "git://github.com/jquery/jquery-ui#c6f1735249295bb37153861aa97e5b3e38d46b02"
 
 jquery.cookie@1.4.1:
   version "1.4.1"
