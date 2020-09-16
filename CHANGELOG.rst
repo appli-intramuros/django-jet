@@ -1,5 +1,11 @@
 Changelog
 =========
+1.1.4
+-----
+* Update jQuery-ui version to 1.12.1
+* Update perfect-scrollbar version to 1.5.0
+* Add jquery-migrate lib
+
 1.1.3
 -----
 * Update jQuery version to 3.5.1
