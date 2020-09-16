@@ -15,8 +15,7 @@
     "gulp-sourcemaps": "1.6.0",
     "gulp-uglify": "1.5.4",
     "jquery": "3.5.1",
-    "jquery-migrate": "^3.3.1",
-    "jquery-ui": "git://github.com/jquery/jquery-ui#1.12.1",
+    "jquery-ui": "git://github.com/jquery/jquery-ui#1.11.4",
     "jquery.cookie": "1.4.1",
     "jquery.mousewheel": "3.1.9",
     "merge-stream": "1.0.0",
@@ -26,5 +25,8 @@
     "timepicker": "git://github.com/geex-arts/timepicker",
     "vinyl-buffer": "1.0.0",
     "vinyl-source-stream": "1.1.0"
+  },
+  "dependencies": {
+    "jquery-migrate": "^3.3.1"
   }
 }
