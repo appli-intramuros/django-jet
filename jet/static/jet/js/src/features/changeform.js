@@ -14,7 +14,7 @@ ChangeForm.prototype = {
         $inputs.off('change', this.onFormInputChanged);
 
         if (!self.changeDetected) {
-            $(window).bind('beforeunload', this.onWindowBeforeUnload);
+            $(window).on('beforeunload', this.onWindowBeforeUnload);
         }
 
         this.changeDetected = true;

@@ -21,7 +21,7 @@ WindowStorage.prototype = {
     },
     previous: function() {
         if (window.top[this.name] == undefined
-            || !$.isArray(window.top[this.name])
+            || !Array.isArray(window.top[this.name])
             || window.top[this.name].length < 2) {
             return null;
         }

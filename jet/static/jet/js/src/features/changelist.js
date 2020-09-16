@@ -75,7 +75,7 @@ ChangeList.prototype = {
             var link = $(this).find('.text a').get(0);
 
             if (link != undefined) {
-                link.click();
+                link.trigger("click");
             }
         });
     },
@@ -86,7 +86,7 @@ ChangeList.prototype = {
                 return;
             }
 
-            $(this).closest('tr').find('.action-checkbox .action-select').click();
+            $(this).closest('tr').find('.action-checkbox .action-select').trigger("click");
         });
     },
     run: function() {

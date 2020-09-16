@@ -4,6 +4,7 @@ jet = {
     jQuery: $
 };
 
+require('jquery-migrate');
 require('./layout-updaters/actions');
 require('./layout-updaters/breadcrumbs');
 require('./layout-updaters/paginator');

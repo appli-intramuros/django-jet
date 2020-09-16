@@ -2077,6 +2077,11 @@ istextorbinary@1.0.2:
     binaryextensions "~1.0.0"
     textextensions "~1.0.0"
 
+jquery-migrate@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery-migrate/-/jquery-migrate-3.3.1.tgz#0f8e2b7531228fda5d88be58dc0e7d5848e52fd1"
+  integrity sha512-QAXfshB6xqaANDX8OPExKnnooLtX0cSDCKfRnqhdv+3CVEVD9L1v3zNAhZum/4AukKlWUWUoxM6ywJJcLMXLSA==
+
 "jquery-ui@git://github.com/jquery/jquery-ui#1.12.1":
   version "1.12.1"
   resolved "git://github.com/jquery/jquery-ui#c6f1735249295bb37153861aa97e5b3e38d46b02"
@@ -2949,9 +2954,9 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-"perfect-scrollbar@git://github.com/mdbootstrap/perfect-scrollbar#0.6.5":
-  version "0.6.5"
-  resolved "git://github.com/mdbootstrap/perfect-scrollbar#6cbb4a9b9d9fb4cb66eea3aa0277deff9466312f"
+"perfect-scrollbar@git://github.com/mdbootstrap/perfect-scrollbar#1.5.0":
+  version "1.5.0"
+  resolved "git://github.com/mdbootstrap/perfect-scrollbar#87ce05ef007ad11194d47160374fcccd96230a4d"
 
 performance-now@^2.1.0:
   version "2.1.0"

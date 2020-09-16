@@ -236,7 +236,7 @@ RelatedPopups.prototype = {
     initLookupLinks: function() {
         var self = this;
 
-        $("a[data-popup-opener]").click(function(e) {
+        $("a[data-popup-opener]").on("click", function(e) {
             e.preventDefault();
 
             self.closePopup({
