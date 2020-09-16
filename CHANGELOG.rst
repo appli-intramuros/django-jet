@@ -1,5 +1,9 @@
 Changelog
 =========
+1.1.5
+-----
+* Downgrade perfect-scrollbar
+
 1.1.4
 -----
 * Update jQuery-ui version to 1.12.1
