@@ -1,5 +1,9 @@
 Changelog
 =========
+1.1.8
+-----
+* Compatibility django 3: new perm 'view'
+
 1.1.7
 -----
 * Add jquery-migrate manually (prod version)
