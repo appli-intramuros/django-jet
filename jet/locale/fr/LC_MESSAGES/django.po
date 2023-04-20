@@ -35,11 +35,11 @@ msgstr "Ajouter aux favoris"
 
 #: templates/admin/base.html:286
 msgid "Delete bookmark"
-msgstr "Éffacer des favoris"
+msgstr "Effacer des favoris"
 
 #: templates/admin/base.html:287
 msgid "Are you sure want to delete this bookmark?"
-msgstr "Voulez-vous vraiment éffacer ce favoris?"
+msgstr "Voulez-vous vraiment effacer ce favori?"
 
 #: templates/admin/base.html:339
 msgid "Application page"

@@ -1,5 +1,9 @@
 Changelog
 =========
+1.1.9
+-----
+* Traductions
+
 1.1.8
 -----
 * Compatibility django 3: new perm 'view'

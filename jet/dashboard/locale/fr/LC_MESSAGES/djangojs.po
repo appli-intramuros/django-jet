@@ -21,7 +21,7 @@ msgstr "Annuler"
 
 #: static/jet/js/src/features/dashboard.js:203
 msgid "Delete"
-msgstr "Éffacer"
+msgstr "Effacer"
 
 #: static/jet/js/src/features/dashboard.js:74
 msgid "Yes"

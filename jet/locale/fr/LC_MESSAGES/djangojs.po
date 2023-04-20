@@ -25,7 +25,7 @@ msgstr "Annuler"
 
 #: static/jet/js/src/features/sidebar/bookmarks.js:113
 msgid "Delete"
-msgstr "Éffacer"
+msgstr "Effacer"
 
 #: static/jet/js/src/features/changeform.js:11
 msgid "Warning: you have unsaved changes"

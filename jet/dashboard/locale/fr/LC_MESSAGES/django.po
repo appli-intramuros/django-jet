@@ -352,11 +352,11 @@ msgstr ""
 
 #: dashboard/templates/jet.dashboard/dashboard.html:17
 msgid "Delete widget"
-msgstr "Éffacer le greffon"
+msgstr "Effacer le greffon"
 
 #: dashboard/templates/jet.dashboard/dashboard.html:18
 msgid "Are you sure want to delete this widget?"
-msgstr "Voulez-vous vraiment éffacer ce greffon?"
+msgstr "Voulez-vous vraiment effacer ce greffon?"
 
 #: dashboard/templates/jet.dashboard/dashboard_tools.html:7
 msgid "widgets"
