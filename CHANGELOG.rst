@@ -1,5 +1,9 @@
 Changelog
 =========
+2.0.0
+-----
+* Display change form tabs on desktop like on mobile
+
 1.1.9
 -----
 * Traductions

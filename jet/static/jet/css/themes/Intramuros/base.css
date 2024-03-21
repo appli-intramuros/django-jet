@@ -9765,7 +9765,7 @@ form .related-widget-wrapper ul {
     border-radius: 0.28571rem 0.28571rem 0 0
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 4076px) {
     .changeform-tabs {
         padding: 10px 10px 5px 10px;
         padding: 0.71429rem 0.71429rem 0.35714rem 0.71429rem
@@ -9799,7 +9799,7 @@ form .related-widget-wrapper ul {
     transition: background-color .1s, color .1s, border-color .3s
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 4076px) {
 
     .changeform-tabs-item a,
     .changeform-tabs-item a:hover,
@@ -9828,7 +9828,7 @@ form .related-widget-wrapper ul {
     border-color: #c14747
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 4076px) {
 
     .changeform-tabs-item.errors a,
     .changeform-tabs-item.errors a:hover,
@@ -9845,7 +9845,7 @@ form .related-widget-wrapper ul {
     border-color: #333
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 4076px) {
 
     .changeform-tabs-item.selected a,
     .changeform-tabs-item.selected a:hover,
