@@ -1,5 +1,9 @@
 Changelog
 =========
+2.0.1
+-----
+* Allow to render HTML with the result template (bypass escaping)
+
 2.0.0
 -----
 * Display change form tabs on desktop like on mobile
