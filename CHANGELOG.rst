@@ -1,5 +1,9 @@
 Changelog
 =========
+2.0.2
+-----
+* CSS
+
 2.0.1
 -----
 * Allow to render HTML with the result template (bypass escaping)
