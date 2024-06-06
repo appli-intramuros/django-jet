@@ -5,6 +5,17 @@ var t = require('../utils/translate');
 
 var Select2 = function() { };
 
+function formatState(state) { // INTRAMUROS : If you need to render HTML with your result template, you must wrap your rendered result in a jQuery object. In this case, the result will be passed directly to jQuery.fn.append and will be handled directly by jQuery. Any markup, such as HTML, will not be escaped and it is up to you to escape any malicious input provided by users. https://select2.org/dropdown#built-in-escaping 
+    if (!state.id) {
+        return state.text;
+    }
+    console.log(state);
+    var $state = $(
+        '<span>' + state.text + '</span>'
+    );
+    return $state;
+}
+
 Select2.prototype = {
     updateAttachBody: function(AttachBody) {
         AttachBody.prototype._positionDropdown = function () {
@@ -153,13 +164,7 @@ Select2.prototype = {
             theme: 'jet',
             dropdownAdapter: DropdownAdapter,
             width: 'auto',
-            templateResult: function (state) { // INTRAMUROS : If you need to render HTML with your result template, you must wrap your rendered result in a jQuery object. In this case, the result will be passed directly to jQuery.fn.append and will be handled directly by jQuery. Any markup, such as HTML, will not be escaped and it is up to you to escape any malicious input provided by users. https://select2.org/dropdown#built-in-escaping 
-                if (!state.id) {
-                    return state.text;
-                }
-                var $state = $(state.text);
-                return $state;
-            },
+            templateResult: formatState,
         };
 
         if ($select.hasClass('ajax')) {
