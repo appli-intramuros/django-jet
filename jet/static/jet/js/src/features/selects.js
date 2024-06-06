@@ -13,6 +13,10 @@ function formatState(state) { // INTRAMUROS : If you need to render HTML with yo
     var $state = $(
         '<span>' + state.text + '</span>'
     );
+    var logo = state.element.attr('logo');
+    if (logo) {
+        $state = '<span><img src="' + logo + '" style="height:80px;padding:5px;"/> ' + state.text + '</span>'
+    }
     return $state;
 }
 
