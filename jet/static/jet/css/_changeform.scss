@@ -977,14 +977,12 @@ form .related-widget-wrapper ul {
 
 .changeform-tabs {
   margin: 0;
-  padding: 0 0 0 16px;
+  // padding: 0 0 0 16px;
   border-bottom: 2px solid $background-color;
   background-color: $content-background-color;
   border-radius: 4px 4px 0 0;
 
-  @include for-mobile {
-    padding: 10px 10px 5px 10px;
-  }
+  padding: 10px 10px 5px 10px; // IntraMuros
 
   &-item {
     display: inline-block;
@@ -993,29 +991,27 @@ form .related-widget-wrapper ul {
 
     a, a:hover, a:visited {
       display: inline-block;
-      padding: 12px 4px;
-      margin: 0 8px 0 0;
+      // padding: 12px 4px;
+      // margin: 0 8px 0 0;
       border-bottom: 2px solid transparent;
       position: relative;
-      top: 2px;
-      color: $dim-text-color;
-      font-weight: bold;
+      // top: 2px;
+      // color: $dim-text-color;
+      // font-weight: bold;
       font-size: 11px;
       text-transform: uppercase;
       transition: background-color $fast-transitions-duration,
                   color $fast-transitions-duration,
                   border-color $transitions-duration;
 
-      @include for-mobile {
-        margin: 0 5px 5px 0;
-        padding: 8px 12px;
-        top: auto;
-        border: 0;
-        border-radius: 5px;
-        font-weight: normal;
-        background: $button-background-color;
-        color: $button-text-color;
-      }
+      margin: 0 5px 5px 0;
+      padding: 8px 12px;
+      top: auto;
+      border: 0;
+      border-radius: 5px;
+      font-weight: normal;
+      background: $button-background-color;
+      color: $button-text-color;
     }
 
     a:hover {
@@ -1026,22 +1022,18 @@ form .related-widget-wrapper ul {
       & a, & a:hover, & a:visited {
         border-color: $tab-error-border-color;
 
-        @include for-mobile {
-          background: $danger-button-background-color;
-          color: $danger-button-text-color;
-        }
+        background: $danger-button-background-color;
+        color: $danger-button-text-color;
       }
     }
 
     &.selected {
       & a, & a:hover, & a:visited {
-        color: $text-color;
+        // color: $text-color;
         border-color: $tab-selected-border-color;
 
-        @include for-mobile {
-          background: $button-hover-background-color;
-          color: $button-hover-text-color;
-        }
+        background: $button-hover-background-color;
+        color: $button-hover-text-color;
       }
     }
   }
