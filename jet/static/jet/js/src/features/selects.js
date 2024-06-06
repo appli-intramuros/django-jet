@@ -5,18 +5,38 @@ var t = require('../utils/translate');
 
 var Select2 = function() { };
 
+function escapeHTML(markup) {
+    var replaceMap = {
+      '\\': '&#92;',
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      '\'': '&#39;',
+      '/': '&#47;'
+    };
+
+    // Do not try to escape the markup if it's not a string
+    if (typeof markup !== 'string') {
+      return markup;
+    }
+
+    return String(markup).replace(/[&<>"'\/\\]/g, function (match) {
+      return replaceMap[match];
+    });
+  };
+
 function formatState(state) { // INTRAMUROS : If you need to render HTML with your result template, you must wrap your rendered result in a jQuery object. In this case, the result will be passed directly to jQuery.fn.append and will be handled directly by jQuery. Any markup, such as HTML, will not be escaped and it is up to you to escape any malicious input provided by users. https://select2.org/dropdown#built-in-escaping 
     if (!state.id) {
         return state.text;
     }
-    console.log(state);
-    var $state = $('<span>' + state.text + '</span>');
+
     var logo = $(state.element).attr('logo');
     if (logo) {
-        $state = $('<span><img src="' + logo + '" style="height:80px;padding:5px;"/> ' + state.text + '</span>');
+        return $('<img src="' + logo + '" style="width:80px;height:80px;object-fit:contain;object-position:center;"/><p>' + escapeHTML(state.text) + '</p>');
     }
-    console.log("formatState return :", $state);
-    return $state;
+
+    return state.text;
 }
 
 Select2.prototype = {
