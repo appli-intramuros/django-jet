@@ -33,7 +33,7 @@ function formatState(state) { // INTRAMUROS : If you need to render HTML with yo
 
     var logo = $(state.element).attr('logo');
     if (logo) {
-        return $('<img src="' + logo + '" style="width:80px;height:80px;object-fit:contain;object-position:center;"/><p>' + escapeHTML(state.text) + '</p>');
+        return $('<img src="' + logo + '" style="width:50px;height:50px;object-fit:contain;object-position:center;"/><p>' + escapeHTML(state.text) + '</p>');
     }
 
     return state.text;
