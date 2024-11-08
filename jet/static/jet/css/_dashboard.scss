@@ -98,7 +98,7 @@ ul.actionlist li {
 
   @for $i from 1 through 5 {
     &-container.columns_#{$i} &-column-wrapper {
-      width: (100% / $i);
+      width: calc(100% / $i);
 
       @include for-mobile {
         width: 100%;
@@ -108,7 +108,7 @@ ul.actionlist li {
 
   &-tools {
     position: absolute;
-    top: ($top-height + 10px * 2) / 2 - 30px / 2;
+    top: calc(($top-height + 10px * 2) / 2) - calc(30px / 2);
     right: 20px + 175px + 20px;
 
     @include for-mobile {

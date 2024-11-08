@@ -1,22 +1,37 @@
 /*
  * These theme uses default variables at ../_variables.scss
  */
-$text-color: #333;
-$top-text-color: #333;
-$dim-text-color: #8b9aa7;
-$input-text-color: #333;
-$button-text-color: #333;
-$tab-selected-border-color: #333;
+$text-color: #000;
+$top-text-color: #000;
+$dim-text-color: #333;
+$input-text-color: #000;
+$button-text-color: #000;
+$tab-selected-border-color: #000;
 
-$input-border-color: #8b9aa7;
+$input-border-color: #333;
 
-$hover-link-color: #003366;
-$top-hover-link-color: #003366;
-$button-hover-background-color: #003366;
-$input-hover-background-color: #003366;
+$link-color: #235599;
+$hover-link-color: #235599;
+$top-hover-link-color: #235599;
+$button-hover-background-color: #235599;
+$input-hover-background-color: #235599;
+
+
+$primary-button-background-color: #235599;
+$input-icon-color: #004FAB;
+
+$top-dropdown-background-color: #235599;
+$top-dropdown-text-color: #fff;
+$top-dropdown-contrast-background-color: #003366;
+$top-dropdown-contrast-text-color: #fff;
+
+$sidebar-text-color: #c0cad8;
+$sidebar-icon-color: #fff;
+$sidebar-link-color: #fff;
+$sidebar-hover-link-color: #fff;
+
 $sidebar-hover-action-color: #003366;
-$sidebar-arrow-color: #003366;
-
-$link-color: #446799;
-$primary-button-background-color: #446799;
-$input-icon-color: #446799;
+$sidebar-arrow-color: #fff;
+$sidebar-background-color: #235599;
+$sidebar-contrast-background-color: #354052;
+$sidebar-contrast-text-color: #fff;

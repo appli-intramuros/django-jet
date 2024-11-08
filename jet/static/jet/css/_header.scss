@@ -4,7 +4,7 @@
 
 #branding {
   display: none;
-  background-color: $sidebar-contrast-background-color;
+  background-color: $sidebar-background-color;
   color: $sidebar-contrast-text-color;
   padding: 14px 32px 14px 36px;
   text-align: center;
@@ -103,7 +103,7 @@
 .user-tools {
   ul {
     position: absolute;
-    top: ($top-height + 10px * 2) / 2 - 30px / 2;
+    top: calc(($top-height + 10px * 2) / 2) - calc(30px / 2);
     right: 20px;
     border: 1px solid $top-border-color;
     border-radius: 4px;
