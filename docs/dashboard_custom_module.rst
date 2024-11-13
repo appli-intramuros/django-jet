@@ -140,7 +140,7 @@ in ``dashboard_modules_views.py`` file inside your application:
 
     .. code-block:: python
 
-        from django.conf.urls import url
+        from django.urls import re_path
         from django.contrib import messages
         from django.shortcuts import redirect
         from jet.dashboard import dashboard
@@ -169,16 +169,17 @@ You should import this file before dashboard urls have been imported in you main
     .. code-block:: python
 
         from django.conf import settings
-        from django.conf.urls import include, url
+        from django.conf.urls import include
+        from django.urls import re_path
         from django.contrib import admin
 
         # Import dashboard module views
         from core import dashboard_modules_views
 
         urlpatterns = [
-            url(r'^admin/', include(admin.site.urls)),
-            url(r'^jet/', include('jet.urls', 'jet')),
-            url(r'^jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),
+            re_path(r'^admin/', include(admin.site.urls)),
+            re_path(r'^jet/', include('jet.urls', 'jet')),
+            re_path(r'^jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),
             ...
         ]
 
